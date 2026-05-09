@@ -79,10 +79,10 @@
 
 ## Результат роботи
 
-![img](/screenshots/1.jpeg)
-![img](/screenshots/2.jpeg)
-![img](/screenshots/3.jpeg)
-![img](/screenshots/4.jpeg)
+![img](screenshots/1.jpeg)
+![img](screenshots/2.jpeg)
+![img](screenshots/3.jpeg)
+![img](screenshots/4.jpeg)
 
 ---
 

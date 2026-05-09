@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Замовлення посуду"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Оберіть тип посуду:" />
+
+        <Spinner
+            android:id="@+id/dishSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Оберіть виробника:" />
+
+        <CheckBox
+            android:id="@+id/checkLuminarc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Luminarc" />
+
+        <CheckBox
+            android:id="@+id/checkTefal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tefal" />
+
+        <CheckBox
+            android:id="@+id/checkIkea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IKEA"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Оберіть діапазон цін:" />
+
+        <CheckBox
+            android:id="@+id/checkLowPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="до 500 грн" />
+
+        <CheckBox
+            android:id="@+id/checkMediumPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="500–1500 грн" />
+
+        <CheckBox
+            android:id="@+id/checkHighPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="понад 1500 грн"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/okButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OK" />
+
+        <Button
+            android:id="@+id/openButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Відкрити"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/currentResultTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+</ScrollView>

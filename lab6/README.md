@@ -86,8 +86,8 @@
 
 ## Результат роботи
 
-[img](screenshots/1.jpeg)
-[img](screenshots/2.jpeg)
+![img](screenshots/1.jpeg)
+![img](screenshots/2.jpeg)
 
 ---
 
